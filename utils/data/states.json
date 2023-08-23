@@ -1,0 +1,253 @@
+{
+  "0001": {
+    "state_name": "Alabama",
+    "state_img": "",
+    "firebaseKey": "0001"
+  },
+  "0002": {
+    "state_name": "Alaska",
+    "state_img": "",
+    "firebaseKey": "0002"
+  },
+  "0003": {
+    "state_name": "Arizona",
+    "state_img": "",
+    "firebaseKey": "0003"
+  },
+  "0004": {
+    "state_name": "Arkansas",
+    "state_img": "",
+    "firebaseKey": "0004"
+  },
+  "0005": {
+    "state_name": "California",
+    "state_img": "",
+    "firebaseKey": "0005"
+  },
+  "0006": {
+    "state_name": "Colorado",
+    "state_img": "",
+    "firebaseKey": "0006"
+  },
+  "0007": {
+    "state_name": "Connecticut",
+    "state_img": "",
+    "firebaseKey": "0007"
+  },
+  "0008": {
+    "state_name": "Delaware",
+    "state_img": "",
+    "firebaseKey": "0008"
+  },
+  "0009": {
+    "state_name": "Florida",
+    "state_img": "",
+    "firebaseKey": "0009"
+  },
+  "0010": {
+    "state_name": "Georgia",
+    "state_img": "",
+    "firebaseKey": "0010"
+  },
+  "0011": {
+    "state_name": "Hawaii",
+    "state_img": "",
+    "firebaseKey": "0011"
+  },
+  "0012": {
+    "state_name": "Idaho",
+    "state_img": "",
+    "firebaseKey": "0012"
+  },
+  "0013": {
+    "state_name": "Illinois",
+    "state_img": "",
+    "firebaseKey": "0013"
+  },
+  "0014": {
+    "state_name": "Indiana",
+    "state_img": "",
+    "firebaseKey": "0014"
+  },
+  "0015": {
+    "state_name": "Iowa",
+    "state_img": "",
+    "firebaseKey": "0015"
+  },
+  "0016": {
+    "state_name": "Kansas",
+    "state_img": "",
+    "firebaseKey": "0016"
+  },
+  "0017": {
+    "state_name": "Kentucky",
+    "state_img": "",
+    "firebaseKey": "0017"
+  },
+  "0018": {
+    "state_name": "Louisiana",
+    "state_img": "",
+    "firebaseKey": "0018"
+  },
+  "0019": {
+    "state_name": "Maine",
+    "state_img": "",
+    "firebaseKey": "0019"
+  },
+  "0020": {
+    "state_name": "Maryland",
+    "state_img": "",
+    "firebaseKey": "0020"
+  },
+  "0021": {
+    "state_name": "Massachusetts",
+    "state_img": "",
+    "firebaseKey": "0021"
+  },
+  "0022": {
+    "state_name": "Michigan",
+    "state_img": "",
+    "firebaseKey": "0022"
+  },
+  "0023": {
+    "state_name": "Minnesota",
+    "state_img": "",
+    "firebaseKey": "0023"
+  },
+  "0024": {
+    "state_name": "Mississippi",
+    "state_img": "",
+    "firebaseKey": "0024"
+  },
+  "0025": {
+    "state_name": "Missouri",
+    "state_img": "",
+    "firebaseKey": "0025"
+  },
+  "0026": {
+    "state_name": "Montana",
+    "state_img": "",
+    "firebaseKey": "0026"
+  },
+  "0027": {
+    "state_name": "Nebraska",
+    "state_img": "",
+    "firebaseKey": "0027"
+  },
+  "0028": {
+    "state_name": "Nevada",
+    "state_img": "",
+    "firebaseKey": "0028"
+  },
+  "0029": {
+    "state_name": "New Hampshire",
+    "state_img": "",
+    "firebaseKey": "0029"
+  },
+  "0030": {
+    "state_name": "New Jersey",
+    "state_img": "",
+    "firebaseKey": "0030"
+  },
+  "0031": {
+    "state_name": "New Mexico",
+    "state_img": "",
+    "firebaseKey": "0031"
+  },
+  "0032": {
+    "state_name": "New York",
+    "state_img": "",
+    "firebaseKey": "0032"
+  },
+  "0033": {
+    "state_name": "North Carolina",
+    "state_img": "",
+    "firebaseKey": "0033"
+  },
+  "0034": {
+    "state_name": "North Dakota",
+    "state_img": "",
+    "firebaseKey": "0034"
+  },
+  "0035": {
+    "state_name": "Ohio",
+    "state_img": "",
+    "firebaseKey": "0035"
+  },
+  "0036": {
+    "state_name": "Oklahoma",
+    "state_img": "",
+    "firebaseKey": "0036"
+  },
+  "0037": {
+    "state_name": "Oregon",
+    "state_img": "",
+    "firebaseKey": "0037"
+  },
+  "0038": {
+    "state_name": "Pennsylvania",
+    "state_img": "",
+    "firebaseKey": "0038"
+  },
+  "0039": {
+    "state_name": "Rhode Island",
+    "state_img": "",
+    "firebaseKey": "0039"
+  },
+  "0040": {
+    "state_name": "South Carolina",
+    "state_img": "",
+    "firebaseKey": "0040"
+  },
+  "0041": {
+    "state_name": "South Dakota",
+    "state_img": "",
+    "firebaseKey": "0041"
+  },
+  "0042": {
+    "state_name": "Tennessee",
+    "state_img": "",
+    "firebaseKey": "0042"
+  },
+  "0043": {
+    "state_name": "Texas",
+    "state_img": "",
+    "firebaseKey": "0043"
+  },
+  "0044": {
+    "state_name": "Utah",
+    "state_img": "",
+    "firebaseKey": "0044"
+  },
+  "0045": {
+    "state_name": "Vermont",
+    "state_img": "",
+    "firebaseKey": "0045"
+  },
+  "0046": {
+    "state_name": "Virginia",
+    "state_img": "",
+    "firebaseKey": "0046"
+  },
+  "0047": {
+    "state_name": "Washington",
+    "state_img": "",
+    "firebaseKey": "0047"
+  },
+  "0048": {
+    "state_name": "West Virginia",
+    "state_img": "",
+    "firebaseKey": "0048"
+  },
+  "0049": {
+    "state_name": "Wisconsin",
+    "state_img": "",
+    "firebaseKey": "0049"
+  },
+  "0050": {
+    "state_name": "Wyoming",
+    "state_img": "",
+    "firebaseKey": "0050"
+  }
+
+}

@@ -1,0 +1,38 @@
+{
+  "1930": {
+    "type_name": "Turtle/Tortoise",
+    "firebaseKey": "1930"
+  },
+  "1931": {
+    "type_name": "Frog/Toad",
+    "firebaseKey": "1931"
+  },
+  "1932": {
+    "type_name": "Snake",
+    "firebaseKey": "1932"
+  },
+  "1933": {
+    "type_name": "Lizard",
+    "firebaseKey": "1933"
+  },
+  "1934": {
+    "type_name": "Salamander",
+    "firebaseKey": "1934"
+  },
+  "1935": {
+    "type_name": "Crocodile",
+    "firebaseKey": "1935"
+  },
+  "1936": {
+    "type_name": "Alligator",
+    "firebaseKey": "1936"
+  },
+  "1937": {
+    "type_name": "Other",
+    "firebaseKey": "1937"
+  },
+  "1938": {
+    "type_name": "Not Sure",
+    "firebaseKey": "1938"
+  }
+}

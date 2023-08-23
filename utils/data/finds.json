@@ -1,0 +1,42 @@
+{
+  "1980": {
+    "find_img": "",
+    "type_id": "1930",
+    "state_id": "0042",
+    "description": "Saw this guy chillin' in the lake at the park",
+    "firebaseKey": "1980",
+    "uid": ""
+  },
+  "1981": {
+    "find_img": "",
+    "type_id": "1932",
+    "state_id": "0042",
+    "description": "Spotted it on a misty morning jog",
+    "firebaseKey": "1981",
+    "uid": ""
+  },
+  "1982": {
+    "find_img": "",
+    "type_id": "1930",
+    "state_id": "0037",
+    "description": "Got him out of the road. Had to make sure he didn't take a finger.",
+    "firebaseKey": "1982",
+    "uid": ""
+  },
+  "1983": {
+    "find_img": "",
+    "type_id": "1933",
+    "state_id": "0017",
+    "description": "Found in my shoe while I was camping",
+    "firebaseKey": "1983",
+    "uid": ""
+  },
+  "1984": {
+    "find_img": "",
+    "type_id": "1934",
+    "state_id": "0024",
+    "description": "It was under a log in the stream behind my house",
+    "firebaseKey": "1984",
+    "uid": ""
+  }
+}
