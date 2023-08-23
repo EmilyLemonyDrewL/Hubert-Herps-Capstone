@@ -1,0 +1,2 @@
+// const viewFindDetails
+// const viewTypeDetails

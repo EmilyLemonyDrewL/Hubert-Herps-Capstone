@@ -1,0 +1,1 @@
+// detailed view of finds
