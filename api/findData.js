@@ -15,7 +15,7 @@ const getFinds = () => new Promise((resolve, reject) => {
 });
 
 const getFindsById = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/finds.json?orderBy="uid"&equalTo="${uid}`, {
+  fetch(`${endpoint}/finds.json?orderBy="uid"&equalTo="${uid}"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

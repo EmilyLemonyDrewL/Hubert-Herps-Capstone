@@ -18,5 +18,17 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #deda9e;
+}
+
+Button {
+  background-color: #4e6109 !important;
+  outline: none !important;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.green-btn {
+  background-color: #4e6109 !important;
+  outline: none !important;
 }

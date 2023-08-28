@@ -20,4 +20,19 @@ const getStates = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export default getStates;
+const getSingleState = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/states/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export {
+  getStates,
+  getSingleState,
+};
