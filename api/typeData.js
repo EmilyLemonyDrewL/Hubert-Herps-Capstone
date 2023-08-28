@@ -20,4 +20,19 @@ const getTypes = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export default getTypes;
+const getSingleType = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/types/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export {
+  getTypes,
+  getSingleType,
+};
