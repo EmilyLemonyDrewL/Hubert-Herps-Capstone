@@ -1,32 +1,11 @@
-// const viewFindDetails
-
 import { getSingleFind } from './findData';
-import { getSingleState } from './stateData';
-import { getSingleType } from './typeData';
+import { getTypeFinds } from './typeData';
 
-const viewFindDetailsState = (findFirebaseKey) => new Promise((resolve, reject) => {
-  getSingleFind(findFirebaseKey)
-    .then((findObject) => {
-      getSingleState(findObject.state_id)
-        .then((stateObject) => {
-          resolve({ stateObject, ...findObject });
-        });
+const viewTypeDetails = (findFirebaseKey) => new Promise((resolve, reject) => {
+  Promise.all([getSingleFind(findFirebaseKey), getTypeFinds(findFirebaseKey)])
+    .then(([typeObject, findObject]) => {
+      resolve({ ...typeObject, finds: findObject });
     }).catch((error) => reject(error));
 });
 
-const viewFindDetails = (findFirebaseKey) => new Promise((resolve, reject) => {
-  getSingleFind(findFirebaseKey)
-    .then((findObject) => {
-      getSingleType(findObject.type_id)
-        .then((typeObject) => {
-          resolve({ typeObject, ...findObject });
-        });
-    }).catch((error) => reject(error));
-});
-
-export {
-  viewFindDetails,
-  viewFindDetailsState,
-};
-
-export default viewFindDetailsState;
+export default viewTypeDetails;
