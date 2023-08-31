@@ -32,7 +32,20 @@ const getSingleType = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getTypeFinds = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="${firebaseKey}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
 export {
   getTypes,
   getSingleType,
+  getTypeFinds,
 };

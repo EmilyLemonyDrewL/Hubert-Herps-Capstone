@@ -11,7 +11,7 @@ import { getTypes } from '../../api/typeData';
 
 const initialState = {
   find_img: '',
-  category_id: '',
+  type_id: '',
   date_found: '',
   state_id: '',
   description: '',
@@ -53,7 +53,7 @@ function FindForm({ obj }) {
       createFind(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
         updateFind(patchPayload).then(() => {
-          router.push('/');
+          router.push('/finds');
         });
       });
     }
@@ -82,7 +82,7 @@ function FindForm({ obj }) {
           name="type_id"
           onChange={handleChange}
           className="mb-3"
-          value={obj.type_id}
+          value={formInput.type_id}
           required
         >
           <option value="">Select a type</option>
