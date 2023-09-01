@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
-import { getFinds } from '../api/findData';
-import FindCard from '../components/FindCard';
+import { getFindsTurtle } from '../../api/findData';
+import FindCard from '../../components/FindCard';
 
-function ShowAllFinds() {
-  const [allFinds, setAllFinds] = useState([]);
+function ShowAllTurtles() {
+  const [turtleFinds, setTurtleFinds] = useState([]);
 
-  const getEveryFind = () => {
-    getFinds().then(setAllFinds);
+  const getTurtleFinds = () => {
+    getFindsTurtle().then(setTurtleFinds);
   };
 
   useEffect(() => {
-    getEveryFind();
+    getTurtleFinds();
   }, []);
 
   return (
@@ -45,13 +45,12 @@ function ShowAllFinds() {
       </div>
 
       <div className="d-flex flex-wrap">
-        {allFinds.map((find) => (
-          <FindCard key={find.firebaseKey} findObj={find} onUpdate={getEveryFind} />
+        {turtleFinds.map((turtle) => (
+          <FindCard key={turtle.firebaseKey} findObj={turtle} onUpdate={getTurtleFinds} />
         ))}
       </div>
-
     </div>
   );
 }
 
-export default ShowAllFinds;
+export default ShowAllTurtles;

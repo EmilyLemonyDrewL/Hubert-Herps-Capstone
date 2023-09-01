@@ -31,6 +31,12 @@ Button {
 .green-btn {
   background-color: #4e6109 !important;
   outline: none !important;
+  margin-top: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  
+  
 }
 
 .nav-color {
