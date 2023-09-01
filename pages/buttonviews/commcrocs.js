@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
-import { getFinds } from '../api/findData';
-import FindCard from '../components/FindCard';
+import { getFindsCroc } from '../../api/findData';
+import FindCard from '../../components/FindCard';
 
-function ShowAllFinds() {
-  const [allFinds, setAllFinds] = useState([]);
+function ShowAllCrocs() {
+  const [crocFinds, setCrocFinds] = useState([]);
 
-  const getEveryFind = () => {
-    getFinds().then(setAllFinds);
+  const getCrocFinds = () => {
+    getFindsCroc().then(setCrocFinds);
   };
 
   useEffect(() => {
-    getEveryFind();
+    getCrocFinds();
   }, []);
 
   return (
@@ -45,13 +45,12 @@ function ShowAllFinds() {
       </div>
 
       <div className="d-flex flex-wrap">
-        {allFinds.map((find) => (
-          <FindCard key={find.firebaseKey} findObj={find} onUpdate={getEveryFind} />
+        {crocFinds.map((croc) => (
+          <FindCard key={croc.firebaseKey} findObj={croc} onUpdate={getCrocFinds} />
         ))}
       </div>
-
     </div>
   );
 }
 
-export default ShowAllFinds;
+export default ShowAllCrocs;

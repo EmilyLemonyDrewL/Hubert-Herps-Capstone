@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
-import { getFinds } from '../api/findData';
-import FindCard from '../components/FindCard';
+import { getFindsOther } from '../../api/findData';
+import FindCard from '../../components/FindCard';
 
-function ShowAllFinds() {
-  const [allFinds, setAllFinds] = useState([]);
+function ShowAllOthers() {
+  const [otherFinds, setOtherFinds] = useState([]);
 
-  const getEveryFind = () => {
-    getFinds().then(setAllFinds);
+  const getOtherFinds = () => {
+    getFindsOther().then(setOtherFinds);
   };
 
   useEffect(() => {
-    getEveryFind();
+    getOtherFinds();
   }, []);
 
   return (
@@ -45,13 +45,12 @@ function ShowAllFinds() {
       </div>
 
       <div className="d-flex flex-wrap">
-        {allFinds.map((find) => (
-          <FindCard key={find.firebaseKey} findObj={find} onUpdate={getEveryFind} />
+        {otherFinds.map((other) => (
+          <FindCard key={other.firebaseKey} findObj={other} onUpdate={getOtherFinds} />
         ))}
       </div>
-
     </div>
   );
 }
 
-export default ShowAllFinds;
+export default ShowAllOthers;

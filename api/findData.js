@@ -76,6 +76,90 @@ const deleteFind = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+const getFindsTurtle = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1930"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsFrog = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1931"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsSnake = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1932"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsLizard = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1933"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsSalamander = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1934"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsCroc = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1935"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getFindsOther = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/finds.json?orderBy="type_id"&equalTo="1936"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
 export {
   getFinds,
   getFindsById,
@@ -83,4 +167,11 @@ export {
   createFind,
   updateFind,
   deleteFind,
+  getFindsTurtle,
+  getFindsFrog,
+  getFindsSnake,
+  getFindsLizard,
+  getFindsSalamander,
+  getFindsCroc,
+  getFindsOther,
 };

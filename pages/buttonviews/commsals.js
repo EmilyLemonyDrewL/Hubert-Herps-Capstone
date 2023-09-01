@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
-import { getFinds } from '../api/findData';
-import FindCard from '../components/FindCard';
+import { getFindsSalamander } from '../../api/findData';
+import FindCard from '../../components/FindCard';
 
-function ShowAllFinds() {
-  const [allFinds, setAllFinds] = useState([]);
+function ShowAllSals() {
+  const [salFinds, setSalFinds] = useState([]);
 
-  const getEveryFind = () => {
-    getFinds().then(setAllFinds);
+  const getSalFinds = () => {
+    getFindsSalamander().then(setSalFinds);
   };
 
   useEffect(() => {
-    getEveryFind();
+    getSalFinds();
   }, []);
 
   return (
@@ -45,13 +45,12 @@ function ShowAllFinds() {
       </div>
 
       <div className="d-flex flex-wrap">
-        {allFinds.map((find) => (
-          <FindCard key={find.firebaseKey} findObj={find} onUpdate={getEveryFind} />
+        {salFinds.map((sal) => (
+          <FindCard key={sal.firebaseKey} findObj={sal} onUpdate={getSalFinds} />
         ))}
       </div>
-
     </div>
   );
 }
 
-export default ShowAllFinds;
+export default ShowAllSals;
