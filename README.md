@@ -1,4 +1,3 @@
-## Application Title:
 # Hubert Herps
 
 ## Overview
