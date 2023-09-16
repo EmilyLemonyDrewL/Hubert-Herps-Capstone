@@ -1,29 +1,29 @@
 # Hubert Herps
 
-## Overview
+### Overview
 Hubert Herps is designed for users interested in the hobby of "herping" (looking for reptiles and amphibians), that would like to keep a log of what they find.
 
-## Wireframe
+### Wireframe
 Coming soon!
 
-## Deployed Project
+### Deployed Project
 Coming soon!
 
-## User Description
-Participants in the hobby of "herping"
+### User Description
+Anyone interested in the hobby of "herping"
 
-## Features
+### Features
 - Users can log in the application using a google account
 - Users can view their posts via the 'Your Collection' page
 - Users can add, edit, and delete their own posts
 - Users can search descriptions of their posts
 - Users can visit the 'Community' page to view posts by other users, and leave comments via the detailed views of the posts.
 
-## Screenshot(s)
+### Screenshot(s)
 Coming soon!
 
-## Contributors
+### Contributors
 https://github.com/EmilyLemonyDrewL
 
-## Loom Video
+### Loom Video
 Coming soon!
