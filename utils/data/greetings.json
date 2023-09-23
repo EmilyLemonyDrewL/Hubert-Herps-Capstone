@@ -1,0 +1,18 @@
+{
+  "8000": {
+    "greeting_message": "Hello herper! Hubert is here to help!",
+    "firebaseKey": "8000"
+  },
+  "8001": {
+    "greeting_message": "Hello there! You can visit the 'Your Collection' page to start adding what you've found.",
+    "firebaseKey": "8001"
+  },
+  "8002": {
+    "greeting_message": "Hey, Hey! Hop over to the 'Community' page to view posts from other users.",
+    "firebaseKey": "8002"
+  },
+  "8003": {
+    "greeting_message": "Ribbet!",
+    "firebaseKey": "8003"
+  }
+}

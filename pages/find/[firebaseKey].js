@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { getSingleFind } from '../../api/findData';
 import { getSingleState } from '../../api/stateData';
@@ -23,6 +25,9 @@ export default function ViewFind() {
 
   return (
     <div>
+      <Link href="/finds" passHref>
+        <Button className="green-btn" variant="success">Go back</Button>
+      </Link>
       <div>
         <img src={findDetails.find_img} alt={findDetails.description} style={{ width: '300px' }} />
       </div>
