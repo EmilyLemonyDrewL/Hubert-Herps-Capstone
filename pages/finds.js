@@ -21,6 +21,7 @@ function ShowFinds() {
 
   useEffect(() => {
     getFindsByUser();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSearch = (query) => {
