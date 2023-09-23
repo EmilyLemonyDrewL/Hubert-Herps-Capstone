@@ -17,7 +17,7 @@ Anyone interested in the hobby of "herping"
 - Users can view their posts via the 'Your Collection' page
 - Users can add, edit, and delete their own posts
 - Users can search descriptions of their posts
-- Users can visit the 'Community' page to view posts by other users, and leave comments via the detailed views of the posts.
+- Users can visit the 'Community' page to view posts by other users.
 
 ### Screenshot(s)
 Coming soon!
