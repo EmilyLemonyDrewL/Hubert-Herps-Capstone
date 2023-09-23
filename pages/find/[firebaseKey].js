@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import { getSingleFind } from '../../api/findData';
 import { getSingleState } from '../../api/stateData';
 import { getSingleType } from '../../api/typeData';
@@ -29,7 +30,7 @@ export default function ViewFind() {
         <Button className="green-btn" variant="success">Go back</Button>
       </Link>
       <div>
-        <img src={findDetails.find_img} alt={findDetails.description} style={{ width: '300px' }} />
+        <Image src={findDetails.find_img} alt={findDetails.description} style={{ width: '300px' }} />
       </div>
       <div>
         <h5>
@@ -44,7 +45,7 @@ export default function ViewFind() {
       </div>
       <div>
         <h4>Location: {findState.state_name}</h4>
-        <img src={findState.state_img} alt={findState.state_name} style={{ width: '300px' }} />
+        <Image src={findState.state_img} alt={findState.state_name} style={{ width: '300px' }} />
       </div>
     </div>
   );
