@@ -1,21 +1,26 @@
+import GreetingMessage from '../components/Greetings';
 import WarningLabel from '../components/WarningLabel';
 import { useAuth } from '../utils/context/authContext'; // TODO: COMMENT IN FOR AUTH
 
 function Home() {
   const { user } = useAuth(); // TODO: COMMENT IN FOR AUTH
 
-  // const user = { displayName: 'Dr. T' }; // TODO: COMMENT OUT FOR AUTH
   return (
     <div>
       <WarningLabel />
-      <h1>About</h1>
-      <p>Hello, {user.displayName}! Hubert Herps is...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus ante quis velit commodo ornare. Donec tellus lectus, pretium ultrices mi quis, iaculis laoreet arcu. Aenean eu aliquet erat. Pellentesque a ante non diam imperdiet volutpat. Aliquam commodo auctor suscipit. Mauris lacinia rhoncus lectus. Nunc vel dolor sed ante pellentesque vestibulum ut non tortor. Vivamus tincidunt nunc ac pretium pharetra.
-
-        Aliquam erat volutpat. In leo risus, luctus sit amet lacus quis, lobortis ultricies ipsum. Aenean sed dolor nec nulla laoreet pellentesque. In hac habitasse platea dictumst. Vestibulum interdum turpis ante, et consectetur ex elementum id. Suspendisse ac placerat ipsum. Nam ex urna, convallis consectetur tempor vel, ultrices nec nibh.
-
-        Nulla blandit suscipit dui, et consequat nibh blandit sed. Sed a dui finibus, pretium augue a, ultrices erat. Curabitur sed pulvinar libero. Vivamus quis purus vitae ex finibus iaculis. Mauris vestibulum ultrices tincidunt. Vestibulum ac erat condimentum, facilisis urna id, consequat turpis. Nam sagittis nulla at metus varius accumsan. Nam sollicitudin felis venenatis nunc venenatis imperdiet.
+      <GreetingMessage />
+      <h1 className="text-center">About</h1>
+      <p>Hello, {user.displayName}! Hubert Herps is designed for herping hobbiests! You might be wondering `What is herping?`. No, it`s not a disease. herping is the hobby of searching for reptiles and amphibians.
       </p>
-      <h2>Helpful Links, Tips & Tricks</h2>
+      <p>Chances are that you are actually here because you already know what herping is, though. So what is Hubert Herps, and how can you utilize this application? Hubert Herps can be used to keep a log of your finds, view the finds of other users, and and most importantly learn. There is so much to learn about all of the crawly creatures that inhabit this planet. Herping can be done from almost anywhere, from a backyard to a vast landscape, and by anyone from a professional to a beginner.</p>
+      <h2 className="text-center">Important Things To Know Before Herping</h2>
+
+      <ul>
+        <li>Herping can be dangerous. Be aware of your local venemous species, how to identify them, and have an emergency contact ready in the case that you are bitten.</li>
+        <li>Unless you are properly trained in handling a species, it is highly encouraged to just look but don`t touch. Many amphibians so not do well with human oils on their skin, and many smaller creatures are fragile and can be injured if handled improperly.</li>
+        <li>Know your laws. It is good to be familiar with local law so that you don`t disturb any endangered species` and so that you don`t break any trespassing laws.</li>
+        <li>Respect your surroundings. If you move logs, rocks, and other parts of your environment, be sure to place everything back where you found it.</li>
+      </ul>
     </div>
   );
 }
