@@ -35,7 +35,7 @@ function ShowFinds() {
     <div className="text-center my-4">
       <p>Find something?</p>
       <Link href="find/new" passHref>
-        <Button className="green-btn" variant="btn btn-success">ADD IT</Button>
+        <Button className="green-btn" variant="btn btn-success">ADD THE FIND</Button>
       </Link>
       <p>to your collection</p>
       <div>

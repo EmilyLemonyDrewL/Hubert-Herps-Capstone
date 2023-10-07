@@ -16,11 +16,11 @@ function GreetingMessage() {
 
   return (
     <div>
-      <div className="greet" id="greet_1">
-        <p>Mascot (Hubert) image will go here when styled</p>
+      <div className="greet" id="greet-1">
+        <img src="https://firebasestorage.googleapis.com/v0/b/hubertherps.appspot.com/o/HubertBiggerNametag.png?alt=media&token=0ac8d592-979f-4b19-8233-60c746eb6582" alt="hubert" style={{ width: '280px' }} />
       </div>
-      <div className="greet" id="greet_2">
-        <p>{message}</p>
+      <div className="greet" id="greet-2">
+        <p className="text-center">{message}</p>
       </div>
     </div>
   );
