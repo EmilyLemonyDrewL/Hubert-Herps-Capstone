@@ -12,7 +12,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -103,6 +102,7 @@ Button {
   text-align: left;
   margin-bottom: 160px;
   padding-top: 6px;
+  background-color: #ffffff;
   color: #4e6109;
   border: 2px solid #4e6109;
   border-radius: 10px;
@@ -124,5 +124,4 @@ Button {
   color: #ffffff;
   border: 8px solid #abc259;
   border-radius: 16px;
-  outline: 2px solid #ffffff;
 }
