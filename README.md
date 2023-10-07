@@ -4,7 +4,7 @@
 Hubert Herps is designed for users interested in the hobby of "herping" (looking for reptiles and amphibians), that would like to keep a log of what they find.
 
 ### Wireframe
-Coming soon!
+https://www.figma.com/file/nmVIHWHd6ZU2rLLEio9NrX/HubertHerps-Layout-Plan?type=design&node-id=0%3A1&mode=design&t=vS3oZBZGwbAOxIDz-1
 
 ### Deployed Project
 https://hubert-herps.netlify.app/
@@ -30,3 +30,9 @@ https://github.com/EmilyLemonyDrewL
 
 ### Loom Video
 Coming soon!
+
+Note for future
+- cd into where you want it in git terminal
+- git clone
+- cd in project and code . to open VS code
+- npm run dev
