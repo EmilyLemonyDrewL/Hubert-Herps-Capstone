@@ -5,7 +5,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -19,6 +18,7 @@ a {
 body {
   background-color: #deda9e;
   color: #4e6109;
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
