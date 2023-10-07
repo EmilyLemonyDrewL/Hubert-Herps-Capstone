@@ -30,7 +30,7 @@ ul {
 }
 
 .card {
-  background-color: #5c7011;
+  background-color: #5c7011 !important;
   color: white;
 }
 
@@ -41,7 +41,7 @@ ul {
 .navbar-logout-btn {
   margin-left: 120px;
   margin-top: 80px;
-  border: 1px solid #ffffff;
+  border: 1px solid #ffffff !important;
   height: 60px;
 }
 
@@ -56,7 +56,7 @@ Button {
 .green-btn {
   background-color: #4e6109 !important;
   outline: none !important;
-  border: 2px solid white;
+  border: 2px solid white !important;
   margin-top: 2px;
   margin-right: 2px;
   margin-bottom: 2px;
