@@ -27,8 +27,8 @@ function FindCard({ findObj, onUpdate }) {
   }, [findObj.state_id]);
 
   return (
-    <Card style={{ width: '18rem', margin: '10px' }}>
-      <Card.Img variant="top" src={findObj.find_img} alt="..." style={{ height: '250px' }} />
+    <Card className="card" style={{ width: '18rem', margin: '10px' }}>
+      <Card.Img className="find-card" variant="top" src={findObj.find_img} alt="..." style={{ height: '250px' }} />
       <Card.Body>
         <p>Type: {type.type_name}</p>
         <p>Date Found: {findObj.date_found}</p>

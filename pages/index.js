@@ -13,6 +13,7 @@ function Home() {
       <p>Hello, {user.displayName}! Hubert Herps is designed for herping hobbiests! You might be wondering `What is herping?`. No, it`s not a disease. herping is the hobby of searching for reptiles and amphibians.
       </p>
       <p>Chances are that you are actually here because you already know what herping is, though. So what is Hubert Herps, and how can you utilize this application? Hubert Herps can be used to keep a log of your finds, view the finds of other users, and and most importantly learn. There is so much to learn about all of the crawly creatures that inhabit this planet. Herping can be done from almost anywhere, from a backyard to a vast landscape, and by anyone from a professional to a beginner.</p>
+
       <h2 className="text-center">Important Things To Know Before Herping</h2>
 
       <ul>

@@ -24,12 +24,12 @@ export default function ViewFind() {
   }, [firebaseKey]);
 
   return (
-    <div>
+    <div className="detail-color">
       <Link href="/finds" passHref>
         <Button className="green-btn" variant="success">Go back</Button>
       </Link>
       <div>
-        <img src={findDetails.find_img} alt={findDetails.description} style={{ width: '300px' }} />
+        <img className="details-img" src={findDetails.find_img} alt={findDetails.description} style={{ width: '300px' }} />
       </div>
       <div>
         <h5>

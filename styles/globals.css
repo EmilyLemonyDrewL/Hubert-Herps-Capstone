@@ -1,11 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=DM+Serif+Text&family=Instrument+Serif&family=Oswald&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -18,11 +18,38 @@ a {
 }
 
 body {
+  
   background-color: #deda9e;
+  color: #4e6109;
+}
+
+p {
+  font-size: large;
+}
+
+ul {
+  font-size: large;
+}
+
+.card {
+  background-color: #5c7011;
+  color: white;
+}
+
+.find-card {
+  border: 12px solid #4e6109;
+}
+
+.navbar-logout-btn {
+  margin-left: 120px;
+  margin-top: 80px;
+  border: 1px solid #ffffff;
+  height: 60px;
 }
 
 Button {
   background-color: #4e6109 !important;
+  border: 2px solid #ffffff;
   outline: none !important;
   margin-left: 6px;
   margin-right: 6px;
@@ -31,40 +58,73 @@ Button {
 .green-btn {
   background-color: #4e6109 !important;
   outline: none !important;
+  border: 2px solid white;
   margin-top: 2px;
   margin-right: 2px;
   margin-bottom: 2px;
   margin-left: 2px;
-  
-  
+}
+
+.details-img {
+  margin: 10px;
+  border: 10px solid #4e6109;
+  border-radius: 8px;
+}
+
+.search-bar {
+  margin-bottom: 8px;
+}
+
+.search-input {
+  border: 2px solid #4e6109;
+  border-radius: 8px;
+}
+
+.search-btn {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
 }
 
 .nav-color {
   background-color: #5c7011;
+  height: 160px;
 }
 
-#greet_1 {
-  width: 200px;
+#greet-1 {
   height: 100px;
-  float: left;
+  margin-top: 16px;
+  margin-bottom: 20px;
   margin-right: 10px;
-  background-color: white;
+  float: left;
 }
 
-#greet_2 {
-  width: 300px;
-  height: 100px;
+#greet-2 {
+  width: 220px;
+  text-align: left;
+  margin-bottom: 160px;
+  padding-top: 6px;
   background-color: white;
-  border: 1px solid black;
+  color: #4e6109;
+  border: 2px solid #4e6109;
+  border-radius: 10px;
   overflow: hidden;
 }
 
+.greet {
+  margin-top: 16px;
+  margin-left: 20%;
+}
+
 #warning-div {
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #663909;
-  color: #e0c724;
-  border: 16px solid #e0c724;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 8px;
+  background-color: #4e6109;
+  color: #ffffff;
+  border: 8px solid #abc259;
+  border-radius: 16px;
+  outline: 2px solid #ffffff;
 }
