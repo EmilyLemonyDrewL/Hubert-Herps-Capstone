@@ -29,7 +29,7 @@ Anyone interested in the hobby of "herping"
 https://github.com/EmilyLemonyDrewL
 
 ### Loom Video
-Coming soon!
+https://www.loom.com/share/ac3b5dab92d5409dabd019aeb566c522?sid=51405b1d-553c-45bc-8801-97cbbe5f271d
 
 Note for future
 - cd into where you want it in git terminal
