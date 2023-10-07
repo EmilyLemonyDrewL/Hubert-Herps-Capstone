@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Image } from 'react-bootstrap';
 
 function GreetingMessage() {
   const [message, setMessage] = useState('');
@@ -17,7 +18,7 @@ function GreetingMessage() {
   return (
     <div>
       <div className="greet" id="greet-1">
-        <img src="https://firebasestorage.googleapis.com/v0/b/hubertherps.appspot.com/o/HubertBiggerNametag.png?alt=media&token=0ac8d592-979f-4b19-8233-60c746eb6582" alt="hubert" style={{ width: '280px' }} />
+        <Image src="https://firebasestorage.googleapis.com/v0/b/hubertherps.appspot.com/o/HubertBiggerNametag.png?alt=media&token=0ac8d592-979f-4b19-8233-60c746eb6582" alt="hubert" style={{ width: '280px' }} />
       </div>
       <div className="greet" id="greet-2">
         <p className="text-center">{message}</p>
